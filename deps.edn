@@ -1,0 +1,11 @@
+{:paths ["src" "classes"]
+ :deps {org.clojure/clojure {:mvn/version "1.10.0"}
+        ring {:mvn/version "1.7.1"}
+        seancorfield/depstar {:mvn/version "0.1.5"}
+
+        ;; Following are extras for convenience
+        compojure {:mvn/version "1.6.1"}
+        cheshire {:mvn/version "5.8.1"}
+        clj-http {:mvn/version "3.9.1"}
+        ring-version {:git/url "https://github.com/tessellator/ring-version"
+                      :sha "ce25b84f59a778c509da56db0bc992f795b60955"}}}
